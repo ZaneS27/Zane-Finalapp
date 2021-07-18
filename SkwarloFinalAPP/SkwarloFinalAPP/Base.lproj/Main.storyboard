@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SkwarloFinalAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY FINAL APP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rS-Rs-8cG">
+                                <rect key="frame" x="151" y="70" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bee-zf-eQT">
+                                <rect key="frame" x="170" y="300" width="74" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Page 2"/>
+                                <connections>
+                                    <segue destination="qAJ-fm-0g3" kind="show" id="Y4u-Rz-XU6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MmX-ge-IAC">
+                                <rect key="frame" x="169" y="400" width="75" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Page 3"/>
+                                <connections>
+                                    <segue destination="Ngh-iW-4zC" kind="show" id="zVw-2Q-kc0"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o2W-Dc-Rvp">
+                                <rect key="frame" x="87" y="120" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Penguin.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="65x-l9-L2x">
+                                <rect key="frame" x="75" y="594" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3ZZ-3e-ora"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o2W-Dc-Rvp" firstAttribute="centerX" secondItem="bee-zf-eQT" secondAttribute="centerX" id="7tw-Ys-Xaf"/>
+                            <constraint firstItem="bee-zf-eQT" firstAttribute="trailing" secondItem="MmX-ge-IAC" secondAttribute="trailing" id="H7E-3r-itd"/>
+                            <constraint firstItem="o2W-Dc-Rvp" firstAttribute="top" secondItem="4rS-Rs-8cG" secondAttribute="bottom" constant="29" id="Iqa-gu-a2d"/>
+                            <constraint firstItem="65x-l9-L2x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="Jke-bQ-tJh"/>
+                            <constraint firstItem="o2W-Dc-Rvp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="Kai-YE-dOq"/>
+                            <constraint firstItem="4rS-Rs-8cG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="M5Z-CM-eF4"/>
+                            <constraint firstItem="4rS-Rs-8cG" firstAttribute="centerX" secondItem="o2W-Dc-Rvp" secondAttribute="centerX" id="RB1-et-DeI"/>
+                            <constraint firstItem="4rS-Rs-8cG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RpE-VH-CRa"/>
+                            <constraint firstItem="bee-zf-eQT" firstAttribute="centerX" secondItem="MmX-ge-IAC" secondAttribute="centerX" id="WXd-pF-5CP"/>
+                            <constraint firstItem="bee-zf-eQT" firstAttribute="top" secondItem="o2W-Dc-Rvp" secondAttribute="bottom" constant="52" id="Wxr-VY-5vS"/>
+                            <constraint firstItem="MmX-ge-IAC" firstAttribute="top" secondItem="bee-zf-eQT" secondAttribute="bottom" constant="58" id="f7A-Z5-e2H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="65x-l9-L2x" secondAttribute="bottom" constant="86" id="ofH-EK-Ttr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="65x-l9-L2x" secondAttribute="trailing" constant="99" id="qRO-vK-11g"/>
+                            <constraint firstItem="MmX-ge-IAC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tKq-xb-mu2"/>
+                            <constraint firstItem="bee-zf-eQT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="vt7-fe-EOn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qWO-dn-XwD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="75"/>
+        </scene>
+        <!--Page2 View Controller-->
+        <scene sceneID="LBr-ho-W1r">
+            <objects>
+                <viewController id="qAJ-fm-0g3" customClass="Page2ViewController" customModule="SkwarloFinalAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZVw-Gf-3xV" customClass="ARSKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lBA-Tp-Tv8">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="HZn-6L-2SV"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Page 2" id="g6O-GC-ZHM">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="hVE-cK-7N5">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="zgr-LI-lrF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F70-Hl-CDS">
+                                <rect key="frame" x="87" y="161" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="6yj-i4-loM"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lion.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="TVS-ux-ZO8">
+                                <rect key="frame" x="87" y="608" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="tN3-uq-nLo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3FP-Lc-PLx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="F70-Hl-CDS" firstAttribute="trailing" secondItem="TVS-ux-ZO8" secondAttribute="trailing" id="0PD-Mx-BRi"/>
+                            <constraint firstItem="F70-Hl-CDS" firstAttribute="top" secondItem="lBA-Tp-Tv8" secondAttribute="bottom" constant="73" id="InR-WZ-09z"/>
+                            <constraint firstItem="F70-Hl-CDS" firstAttribute="leading" secondItem="TVS-ux-ZO8" secondAttribute="leading" id="Ogg-Xc-9Dr"/>
+                            <constraint firstItem="lBA-Tp-Tv8" firstAttribute="leading" secondItem="3FP-Lc-PLx" secondAttribute="leading" id="V7R-8L-73n"/>
+                            <constraint firstItem="lBA-Tp-Tv8" firstAttribute="top" secondItem="3FP-Lc-PLx" secondAttribute="top" constant="44" id="Wqg-ZK-2xU"/>
+                            <constraint firstItem="lBA-Tp-Tv8" firstAttribute="centerX" secondItem="ZVw-Gf-3xV" secondAttribute="centerX" id="wLs-8I-VN0"/>
+                            <constraint firstItem="lBA-Tp-Tv8" firstAttribute="centerX" secondItem="F70-Hl-CDS" secondAttribute="centerX" id="wlA-eR-yHO"/>
+                            <constraint firstItem="F70-Hl-CDS" firstAttribute="leading" secondItem="3FP-Lc-PLx" secondAttribute="leading" constant="87" id="xuC-Zd-oKu"/>
+                            <constraint firstItem="3FP-Lc-PLx" firstAttribute="bottom" secondItem="TVS-ux-ZO8" secondAttribute="bottom" constant="72" id="zdt-1C-ORH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="L6F-ip-8Pm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hgb-Ke-Qg1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="747" y="87"/>
+        </scene>
+        <!--Page3 View Controller-->
+        <scene sceneID="zVv-mx-rvv">
+            <objects>
+                <viewController id="Ngh-iW-4zC" customClass="Page3ViewController" customModule="SkwarloFinalAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nkc-ho-9lb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTc-6a-fIr">
+                                <rect key="frame" x="0.0" y="77" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="29i-gU-1TT"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Page 3" id="HVb-3T-Zcz">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="4Pk-N9-5oc">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="b2A-0m-Kdn"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Meerkat.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0ME-m5-JjF">
+                                <rect key="frame" x="87" y="616" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="RFo-Qg-dO7"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5xL-o2-hY0">
+                                <rect key="frame" x="87" y="177" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="7iB-pA-Rcq"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V2E-Gt-NSq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V2E-Gt-NSq" firstAttribute="bottom" secondItem="0ME-m5-JjF" secondAttribute="bottom" constant="64" id="9l8-xd-jsD"/>
+                            <constraint firstItem="5xL-o2-hY0" firstAttribute="trailing" secondItem="0ME-m5-JjF" secondAttribute="trailing" id="LWB-ya-aHK"/>
+                            <constraint firstItem="NTc-6a-fIr" firstAttribute="centerX" secondItem="Nkc-ho-9lb" secondAttribute="centerX" id="Ngj-uH-04t"/>
+                            <constraint firstItem="NTc-6a-fIr" firstAttribute="centerX" secondItem="5xL-o2-hY0" secondAttribute="centerX" id="Wg2-wd-ipj"/>
+                            <constraint firstItem="5xL-o2-hY0" firstAttribute="leading" secondItem="0ME-m5-JjF" secondAttribute="leading" id="ZYz-hr-aKC"/>
+                            <constraint firstItem="5xL-o2-hY0" firstAttribute="top" secondItem="NTc-6a-fIr" secondAttribute="bottom" constant="56" id="hMS-5p-U6w"/>
+                            <constraint firstItem="5xL-o2-hY0" firstAttribute="leading" secondItem="V2E-Gt-NSq" secondAttribute="leading" constant="87" id="hci-9S-NqV"/>
+                            <constraint firstItem="NTc-6a-fIr" firstAttribute="leading" secondItem="V2E-Gt-NSq" secondAttribute="leading" id="ryV-cv-rme"/>
+                            <constraint firstItem="NTc-6a-fIr" firstAttribute="top" secondItem="V2E-Gt-NSq" secondAttribute="top" constant="77" id="zwM-ub-EcL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iwJ-xn-akX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XJg-6e-luS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="101"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="b2A-0m-Kdn"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Lion.jpeg" width="295" height="195"/>
+        <image name="Meerkat.jpeg" width="463" height="711"/>
+        <image name="Penguin.jpeg" width="245.75999450683594" height="184.32000732421875"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
