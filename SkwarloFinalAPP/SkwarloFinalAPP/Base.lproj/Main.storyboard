@@ -93,7 +93,7 @@
                                     <constraint firstAttribute="height" constant="44" id="HZn-6L-2SV"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem title="Page 2" id="g6O-GC-ZHM">
+                                    <navigationItem title="Explanation of game" id="g6O-GC-ZHM">
                                         <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="hVE-cK-7N5">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="show" id="zgr-LI-lrF"/>
@@ -203,7 +203,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="b2A-0m-Kdn"/>
+        <segue reference="zgr-LI-lrF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Lion.jpeg" width="295" height="195"/>
