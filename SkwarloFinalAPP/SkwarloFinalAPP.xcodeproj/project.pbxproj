@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		249CE4FE26AC635800CDAB76 /* Reference photo for 1st generation.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE4FD26AC635800CDAB76 /* Reference photo for 1st generation.jpeg */; };
+		249CE50126AC649E00CDAB76 /* Reference for 2nd gen scion tC.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE50026AC649E00CDAB76 /* Reference for 2nd gen scion tC.jpeg */; };
+		249CE50426AC684000CDAB76 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249CE50326AC684000CDAB76 /* Page4ViewController.swift */; };
+		249CE50C26AC6DA800CDAB76 /* refernce photo for RSX.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE50B26AC6DA800CDAB76 /* refernce photo for RSX.jpeg */; };
+		249CE51026AC6E1E00CDAB76 /* Ref for Frs.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE50F26AC6E1E00CDAB76 /* Ref for Frs.jpeg */; };
+		249CE51526AC6ED200CDAB76 /* tc1 ex 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51226AC6ED200CDAB76 /* tc1 ex 3.jpg */; };
+		249CE51626AC6ED200CDAB76 /* 1st ex Tc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51326AC6ED200CDAB76 /* 1st ex Tc.jpeg */; };
+		249CE51726AC6ED200CDAB76 /* tc1 ex2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51426AC6ED200CDAB76 /* tc1 ex2.jpeg */; };
+		249CE51A26AC6F4000CDAB76 /* tc1 4ex.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51926AC6F4000CDAB76 /* tc1 4ex.jpeg */; };
+		249CE52026AC6FBA00CDAB76 /* tc2 slam.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51C26AC6FBA00CDAB76 /* tc2 slam.jpeg */; };
+		249CE52126AC6FBA00CDAB76 /* tc2 ex4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51D26AC6FBA00CDAB76 /* tc2 ex4.jpeg */; };
+		249CE52226AC6FBA00CDAB76 /* tc2 ex3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51E26AC6FBA00CDAB76 /* tc2 ex3.jpeg */; };
+		249CE52326AC6FBA00CDAB76 /* tc 2 ex2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE51F26AC6FBA00CDAB76 /* tc 2 ex2.jpeg */; };
+		249CE52C26AC70D000CDAB76 /* rsx ex 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE52826AC70D000CDAB76 /* rsx ex 4.jpeg */; };
+		249CE52D26AC70D000CDAB76 /* rsx ex 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE52926AC70D000CDAB76 /* rsx ex 2.jpeg */; };
+		249CE52E26AC70D000CDAB76 /* rsx ex1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE52A26AC70D000CDAB76 /* rsx ex1.jpeg */; };
+		249CE52F26AC70D000CDAB76 /* rsx ex 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE52B26AC70D000CDAB76 /* rsx ex 3.jpeg */; };
+		249CE53526AC70EA00CDAB76 /* frs ex 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE53126AC70EA00CDAB76 /* frs ex 4.jpeg */; };
+		249CE53626AC70EA00CDAB76 /* Frs ex1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE53226AC70EA00CDAB76 /* Frs ex1.jpeg */; };
+		249CE53726AC70EA00CDAB76 /* frs ex 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE53326AC70EA00CDAB76 /* frs ex 3.jpeg */; };
+		249CE53826AC70EA00CDAB76 /* frs ex2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 249CE53426AC70EA00CDAB76 /* frs ex2.jpeg */; };
 		24EE8C8226A4A58F000E5E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE8C8126A4A58F000E5E96 /* AppDelegate.swift */; };
 		24EE8C8426A4A58F000E5E96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE8C8326A4A58F000E5E96 /* SceneDelegate.swift */; };
 		24EE8C8626A4A58F000E5E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE8C8526A4A58F000E5E96 /* ViewController.swift */; };
@@ -15,12 +36,30 @@
 		24EE8C8E26A4A590000E5E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EE8C8C26A4A590000E5E96 /* LaunchScreen.storyboard */; };
 		24EE8C9726A4A68B000E5E96 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE8C9626A4A68B000E5E96 /* Page2ViewController.swift */; };
 		24EE8C9B26A4AD41000E5E96 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EE8C9A26A4AD41000E5E96 /* Page3ViewController.swift */; };
-		24EE8CA926A4B326000E5E96 /* Penguin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24EE8CA826A4B326000E5E96 /* Penguin.jpeg */; };
-		24EE8CAC26A4B3AD000E5E96 /* Lion.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24EE8CAB26A4B3AD000E5E96 /* Lion.jpeg */; };
-		24EE8CAF26A4B3C2000E5E96 /* Meerkat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24EE8CAE26A4B3C2000E5E96 /* Meerkat.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		249CE4FD26AC635800CDAB76 /* Reference photo for 1st generation.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Reference photo for 1st generation.jpeg"; sourceTree = "<group>"; };
+		249CE50026AC649E00CDAB76 /* Reference for 2nd gen scion tC.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Reference for 2nd gen scion tC.jpeg"; sourceTree = "<group>"; };
+		249CE50326AC684000CDAB76 /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		249CE50B26AC6DA800CDAB76 /* refernce photo for RSX.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "refernce photo for RSX.jpeg"; sourceTree = "<group>"; };
+		249CE50F26AC6E1E00CDAB76 /* Ref for Frs.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ref for Frs.jpeg"; sourceTree = "<group>"; };
+		249CE51226AC6ED200CDAB76 /* tc1 ex 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tc1 ex 3.jpg"; path = "../../../../tc1 ex 3.jpg"; sourceTree = "<group>"; };
+		249CE51326AC6ED200CDAB76 /* 1st ex Tc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1st ex Tc.jpeg"; path = "../../../../1st ex Tc.jpeg"; sourceTree = "<group>"; };
+		249CE51426AC6ED200CDAB76 /* tc1 ex2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tc1 ex2.jpeg"; path = "../../../../tc1 ex2.jpeg"; sourceTree = "<group>"; };
+		249CE51926AC6F4000CDAB76 /* tc1 4ex.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tc1 4ex.jpeg"; path = "../../../../tc1 4ex.jpeg"; sourceTree = "<group>"; };
+		249CE51C26AC6FBA00CDAB76 /* tc2 slam.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tc2 slam.jpeg"; path = "../../../../tc2 slam.jpeg"; sourceTree = "<group>"; };
+		249CE51D26AC6FBA00CDAB76 /* tc2 ex4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tc2 ex4.jpeg"; path = "../../../../tc2 ex4.jpeg"; sourceTree = "<group>"; };
+		249CE51E26AC6FBA00CDAB76 /* tc2 ex3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tc2 ex3.jpeg"; path = "../../../../tc2 ex3.jpeg"; sourceTree = "<group>"; };
+		249CE51F26AC6FBA00CDAB76 /* tc 2 ex2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tc 2 ex2.jpeg"; path = "../../../../tc 2 ex2.jpeg"; sourceTree = "<group>"; };
+		249CE52826AC70D000CDAB76 /* rsx ex 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rsx ex 4.jpeg"; path = "../../../../rsx ex 4.jpeg"; sourceTree = "<group>"; };
+		249CE52926AC70D000CDAB76 /* rsx ex 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rsx ex 2.jpeg"; path = "../../../../rsx ex 2.jpeg"; sourceTree = "<group>"; };
+		249CE52A26AC70D000CDAB76 /* rsx ex1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rsx ex1.jpeg"; path = "../../../../rsx ex1.jpeg"; sourceTree = "<group>"; };
+		249CE52B26AC70D000CDAB76 /* rsx ex 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rsx ex 3.jpeg"; path = "../../../../rsx ex 3.jpeg"; sourceTree = "<group>"; };
+		249CE53126AC70EA00CDAB76 /* frs ex 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "frs ex 4.jpeg"; path = "../../../../frs ex 4.jpeg"; sourceTree = "<group>"; };
+		249CE53226AC70EA00CDAB76 /* Frs ex1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Frs ex1.jpeg"; path = "../../../../Frs ex1.jpeg"; sourceTree = "<group>"; };
+		249CE53326AC70EA00CDAB76 /* frs ex 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "frs ex 3.jpeg"; path = "../../../../frs ex 3.jpeg"; sourceTree = "<group>"; };
+		249CE53426AC70EA00CDAB76 /* frs ex2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "frs ex2.jpeg"; path = "../../../../frs ex2.jpeg"; sourceTree = "<group>"; };
 		24EE8C7E26A4A58F000E5E96 /* SkwarloFinalAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkwarloFinalAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EE8C8126A4A58F000E5E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24EE8C8326A4A58F000E5E96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +70,6 @@
 		24EE8C8F26A4A590000E5E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24EE8C9626A4A68B000E5E96 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
 		24EE8C9A26A4AD41000E5E96 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
-		24EE8CA826A4B326000E5E96 /* Penguin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Penguin.jpeg; path = ../../../../../Downloads/Penguin.jpeg; sourceTree = "<group>"; };
-		24EE8CAB26A4B3AD000E5E96 /* Lion.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion.jpeg; sourceTree = "<group>"; };
-		24EE8CAE26A4B3C2000E5E96 /* Meerkat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Meerkat.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +83,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		249CE50726AC6C6400CDAB76 /* Scion tC 1st Gen examples */ = {
+			isa = PBXGroup;
+			children = (
+				249CE51926AC6F4000CDAB76 /* tc1 4ex.jpeg */,
+				249CE51326AC6ED200CDAB76 /* 1st ex Tc.jpeg */,
+				249CE51426AC6ED200CDAB76 /* tc1 ex2.jpeg */,
+				249CE51226AC6ED200CDAB76 /* tc1 ex 3.jpg */,
+			);
+			path = "Scion tC 1st Gen examples";
+			sourceTree = "<group>";
+		};
+		249CE50826AC6C7300CDAB76 /* Scion tC 2nd gen examples */ = {
+			isa = PBXGroup;
+			children = (
+				249CE51F26AC6FBA00CDAB76 /* tc 2 ex2.jpeg */,
+				249CE51E26AC6FBA00CDAB76 /* tc2 ex3.jpeg */,
+				249CE51D26AC6FBA00CDAB76 /* tc2 ex4.jpeg */,
+				249CE51C26AC6FBA00CDAB76 /* tc2 slam.jpeg */,
+			);
+			path = "Scion tC 2nd gen examples";
+			sourceTree = "<group>";
+		};
+		249CE50926AC6C8400CDAB76 /* Scion frs examples */ = {
+			isa = PBXGroup;
+			children = (
+				249CE53326AC70EA00CDAB76 /* frs ex 3.jpeg */,
+				249CE53126AC70EA00CDAB76 /* frs ex 4.jpeg */,
+				249CE53226AC70EA00CDAB76 /* Frs ex1.jpeg */,
+				249CE53426AC70EA00CDAB76 /* frs ex2.jpeg */,
+			);
+			path = "Scion frs examples";
+			sourceTree = "<group>";
+		};
+		249CE50A26AC6C9900CDAB76 /* Acura Rsx examples */ = {
+			isa = PBXGroup;
+			children = (
+				249CE52926AC70D000CDAB76 /* rsx ex 2.jpeg */,
+				249CE52B26AC70D000CDAB76 /* rsx ex 3.jpeg */,
+				249CE52826AC70D000CDAB76 /* rsx ex 4.jpeg */,
+				249CE52A26AC70D000CDAB76 /* rsx ex1.jpeg */,
+			);
+			path = "Acura Rsx examples";
+			sourceTree = "<group>";
+		};
 		24EE8C7526A4A58F000E5E96 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +152,7 @@
 				24EE8C8526A4A58F000E5E96 /* ViewController.swift */,
 				24EE8C9626A4A68B000E5E96 /* Page2ViewController.swift */,
 				24EE8C9A26A4AD41000E5E96 /* Page3ViewController.swift */,
+				249CE50326AC684000CDAB76 /* Page4ViewController.swift */,
 				24EE8C8726A4A58F000E5E96 /* Main.storyboard */,
 				24EE8C8A26A4A590000E5E96 /* Assets.xcassets */,
 				24EE8C8C26A4A590000E5E96 /* LaunchScreen.storyboard */,
@@ -83,9 +164,14 @@
 		24EE8C9E26A4AF92000E5E96 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				24EE8CAE26A4B3C2000E5E96 /* Meerkat.jpeg */,
-				24EE8CAB26A4B3AD000E5E96 /* Lion.jpeg */,
-				24EE8CA826A4B326000E5E96 /* Penguin.jpeg */,
+				249CE50826AC6C7300CDAB76 /* Scion tC 2nd gen examples */,
+				249CE50726AC6C6400CDAB76 /* Scion tC 1st Gen examples */,
+				249CE50A26AC6C9900CDAB76 /* Acura Rsx examples */,
+				249CE50926AC6C8400CDAB76 /* Scion frs examples */,
+				249CE4FD26AC635800CDAB76 /* Reference photo for 1st generation.jpeg */,
+				249CE50026AC649E00CDAB76 /* Reference for 2nd gen scion tC.jpeg */,
+				249CE50B26AC6DA800CDAB76 /* refernce photo for RSX.jpeg */,
+				249CE50F26AC6E1E00CDAB76 /* Ref for Frs.jpeg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -147,12 +233,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249CE51526AC6ED200CDAB76 /* tc1 ex 3.jpg in Resources */,
 				24EE8C8E26A4A590000E5E96 /* LaunchScreen.storyboard in Resources */,
-				24EE8CAF26A4B3C2000E5E96 /* Meerkat.jpeg in Resources */,
 				24EE8C8B26A4A590000E5E96 /* Assets.xcassets in Resources */,
-				24EE8CA926A4B326000E5E96 /* Penguin.jpeg in Resources */,
-				24EE8CAC26A4B3AD000E5E96 /* Lion.jpeg in Resources */,
+				249CE53826AC70EA00CDAB76 /* frs ex2.jpeg in Resources */,
+				249CE52D26AC70D000CDAB76 /* rsx ex 2.jpeg in Resources */,
+				249CE51626AC6ED200CDAB76 /* 1st ex Tc.jpeg in Resources */,
+				249CE53526AC70EA00CDAB76 /* frs ex 4.jpeg in Resources */,
+				249CE52026AC6FBA00CDAB76 /* tc2 slam.jpeg in Resources */,
+				249CE4FE26AC635800CDAB76 /* Reference photo for 1st generation.jpeg in Resources */,
+				249CE52E26AC70D000CDAB76 /* rsx ex1.jpeg in Resources */,
+				249CE52326AC6FBA00CDAB76 /* tc 2 ex2.jpeg in Resources */,
+				249CE53726AC70EA00CDAB76 /* frs ex 3.jpeg in Resources */,
+				249CE53626AC70EA00CDAB76 /* Frs ex1.jpeg in Resources */,
+				249CE50126AC649E00CDAB76 /* Reference for 2nd gen scion tC.jpeg in Resources */,
+				249CE52126AC6FBA00CDAB76 /* tc2 ex4.jpeg in Resources */,
+				249CE52226AC6FBA00CDAB76 /* tc2 ex3.jpeg in Resources */,
+				249CE51726AC6ED200CDAB76 /* tc1 ex2.jpeg in Resources */,
+				249CE52F26AC70D000CDAB76 /* rsx ex 3.jpeg in Resources */,
+				249CE51026AC6E1E00CDAB76 /* Ref for Frs.jpeg in Resources */,
 				24EE8C8926A4A58F000E5E96 /* Main.storyboard in Resources */,
+				249CE50C26AC6DA800CDAB76 /* refernce photo for RSX.jpeg in Resources */,
+				249CE51A26AC6F4000CDAB76 /* tc1 4ex.jpeg in Resources */,
+				249CE52C26AC70D000CDAB76 /* rsx ex 4.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +268,7 @@
 			files = (
 				24EE8C8626A4A58F000E5E96 /* ViewController.swift in Sources */,
 				24EE8C8226A4A58F000E5E96 /* AppDelegate.swift in Sources */,
+				249CE50426AC684000CDAB76 /* Page4ViewController.swift in Sources */,
 				24EE8C9726A4A68B000E5E96 /* Page2ViewController.swift in Sources */,
 				24EE8C9B26A4AD41000E5E96 /* Page3ViewController.swift in Sources */,
 				24EE8C8426A4A58F000E5E96 /* SceneDelegate.swift in Sources */,
